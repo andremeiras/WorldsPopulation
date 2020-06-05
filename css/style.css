@@ -1,0 +1,76 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+
+  background-image: url('map.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  /* background-position-y: 156px; */
+  background-size: 300px;
+}
+
+h1 {
+  font-size: 84px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* background-color: rgba(255, 255, 255, 0.212); */
+  background-color: rgba(0, 206, 209, 0.308);
+  padding: 20px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.country-container {
+  font-size: 24px;
+  display: flex;
+  background-image: url('map.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  /* background-position-y: 156px; */
+  background-size: 60%;
+  margin-left: 5px;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#all-countries {
+  background-color: rgba(173, 216, 230, 0.295);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid rgba(173, 216, 230);
+  padding-left: 1%;
+}
+
+#favorite-countries {
+  background-color: rgba(144, 238, 144, 0.247);
+  margin-left: auto;
+  margin-right: auto;
+  width: 49.8%;
+  border: 1px solid rgba(144, 238, 144);
+  padding-left: 1%;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.country-list {
+  background-color: rgb(235, 235, 235);
+  padding-left: 5px;
+  border-radius: 10px;
+}
