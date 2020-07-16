@@ -2,7 +2,7 @@
 
 :bar_chart: It's an application that shows the size of population in all over the world, separated by countries.
 
-## How it works?
+## How's it works?
 
 :heavy_check_mark: On the left side it has a list of countries, and each one with their total population. At the top of the same list has the sum of all of this countries.
 
